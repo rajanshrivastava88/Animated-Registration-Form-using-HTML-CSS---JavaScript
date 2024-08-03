@@ -8,4 +8,27 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #31d398;
+}
+.container{
+    width: 65%;
+    height: 550px;
+    margin-top: 20px;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.item{
+    position: absolute;
+    width: 58%;
+    height: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
 }
