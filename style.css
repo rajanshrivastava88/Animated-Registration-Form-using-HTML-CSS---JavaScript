@@ -42,3 +42,11 @@ body{
     border-radius: 20px;
     object-fit: cover;
 }
+.login-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 58%);
+    height: 100%;
+}
+.form-box
