@@ -122,3 +122,11 @@ body{
     position: relative;
     top: 2.5px;
 }
+.account-login label{
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}
+.account-login label a{
+    font-weight: 600;
+}
