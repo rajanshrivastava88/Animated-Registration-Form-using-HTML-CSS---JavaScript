@@ -18,8 +18,9 @@ body{
     margin-top: 20px;
     background: #fff;
     position: absolute;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
+    overflow: hidden;
 }
 .item{
     position: absolute;
@@ -48,6 +49,28 @@ body{
     right: 0;
     width: calc(100% - 58%);
     height: 100%;
+}
+
+
+
+.login-section .form-box.Login{
+    transform: translateX(430px);
+    transition: transform .5s ease;
+    transition-delay: 0s;
+}
+.login-section.active .form-box.Login{
+    transform: translateX(0px);
+    transition-delay: 0.6s;
+}
+
+.login-section .form-box.Register{
+    transform: translateX(0px);
+    transition: transform .5s ease;
+    transition-delay: 0s;
+}
+.login-section.active .form-box.Register{
+    transform: translateX(430px);
+    transition-delay: 0.6s;
 }
 .form-box{
     position: absolute;
