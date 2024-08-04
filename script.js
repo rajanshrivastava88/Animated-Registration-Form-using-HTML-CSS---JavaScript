@@ -18,7 +18,8 @@ var swiper = new Swiper(".mySwiper", {
 
 const loginsec = document.querySelector('.login-section')
 const Registerlink = document.querySelector('.Register-link')
-const loginlink = document.querySelector('.Login-link')
+const Loginlink = document.querySelector('.Login-link')
+
 Loginlink.addEventListener('click', ()=>{
   loginsec.classList.add('active')
 })
